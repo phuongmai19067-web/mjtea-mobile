@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MJtea",
+    "slug": "mjtea",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-brown.png",
+    "scheme": "mjtea",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mjtea.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#A07248",
+        "foregroundImage": "./assets/images/logo-brown.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mjtea.app"
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FDFCF9",
+          "image": "./assets/images/logo.png",
+          "imageWidth": 220
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
